@@ -13,12 +13,23 @@ body {
   background: var(--bg);
   font-family: nightingale, serif;
   font-size: large;
-  margin: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+  max-width: 1300px;
 }
 
-h1 {
-  font-size: 70px;
-  margin-bottom: 50px;
+body > * {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#title {
+ flex: 1 1;
+ font-size: 70px;
+ margin-bottom: 50px;
 }
 
 .frac {
@@ -26,6 +37,7 @@ h1 {
 }
 
 .drinks {
+  flex: 1 1 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -72,10 +84,17 @@ td:nth-child(2) {
   /* filters black to #f9f5d7 */
   filter: invert(88%) sepia(19%) saturate(295%) hue-rotate(352deg) brightness(109%) contrast(95%);
   width: 50px;
-  margin-right: 20px;
 }
 
-.special-header {
+#first-section {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  column-gap: 50px;
+}
+
+#special-header {
   font-size: x-large;
   font-weight: bold;
 }
@@ -84,4 +103,9 @@ td:nth-child(2) {
   border: 1px solid var(--tan);
   width: min-content;
   padding: 15px;
+}
+
+#martinis {
+  flex: 1 1;
+  max-width: 700px;
 }
