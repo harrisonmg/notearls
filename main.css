@@ -1,0 +1,87 @@
+:root {
+  --bg: #131516;
+  --tan: #f9f5d7;
+}
+
+@font-face {
+  font-family: nightingale;
+  src: url(DTNightingale-Light.ttf);
+}
+
+body {
+  color: var(--tan);
+  background: var(--bg);
+  font-family: nightingale, serif;
+  font-size: large;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.frac {
+  font-size: 10px;
+}
+
+.drinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 1000px;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.drink {
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.drink > * {
+  white-space: nowrap;
+}
+
+.drink-name {
+  font-size: xx-large;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+table {
+  table-layout: fixed;
+}
+
+td:nth-child(1) {
+  text-align: center;
+  width: 40px;
+}
+
+td:nth-child(2) {
+  text-align: left;
+}
+
+.header {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.icon {
+  /* filters black to #f9f5d7 */
+  filter: invert(88%) sepia(19%) saturate(295%) hue-rotate(352deg) brightness(109%) contrast(95%);
+  width: 50px;
+  margin-right: 20px;
+}
+
+.special-header {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#special {
+  border: 1px solid var(--tan);
+  width: min-content;
+  padding: 15px;
+}

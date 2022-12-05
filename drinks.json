@@ -1,0 +1,106 @@
+{
+  "martinis": [
+    [
+      "Gin Martini",
+      ["2 1/2", "Gin"],
+      ["1/2", "Dry vermouth"],
+      ["Bitters"],
+      ["Olive or lemon"]
+    ],
+    [
+      "Lavender Martini",
+      ["1 1/2", "Gin"],
+      ["3/4", "Elderflower"],
+      ["1 1/4", "Lavender syrup"],
+      ["1/2", "Lemon"]
+    ]
+  ],
+  "cocktails": [
+    [
+      "Sean Temple",
+      ["2", "White rum"],
+      ["¾", "Grenadine"],
+      ["Sprite"]
+    ],
+    [
+      "Whisky Ginger",
+      ["1 1/2", "Suntory whisky"],
+      ["Ginger beer"],
+      ["Orange bitters"]
+    ],
+    [
+      "Poshfly",
+      ["2", "Malibu"],
+      ["3/4", "Lime"],
+      ["1/2", "Grenadine"],
+      ["Tropical red bull"]
+    ],
+    [
+      "Club Pegu",
+      ["2", "Gin"],
+      ["3/4", "Orange liqueur"],
+      ["1/2", "Lime"],
+      ["Bitters"]
+    ],
+    [
+      "Espresso Martini",
+      ["1", "Coffee liqueur"],
+      ["1", "Gin"],
+      ["1", "Cream liqueur"]
+    ],
+    [
+      "Moscow Mule",
+      ["2", "Gin"],
+      ["3/4", "Lime"],
+      ["Ginger beer"]
+    ],
+    [
+      "Gin & Tonic",
+      ["2", "Gin"],
+      ["1/2", "Lime"],
+      ["Tonic"]
+    ],
+    [
+      "Long Island",
+      ["1", "Gin"],
+      ["1/2", "Tequila"],
+      ["1/2", "White rum"],
+      ["1/2", "Orange liqueur"],
+      ["1", "Lime"],
+      ["Cola"]
+    ],
+    [
+      "Negroni",
+      ["1 1/2", "Gin"],
+      ["1", "Aperitif"],
+      ["1/2", "Dark vermouth"],
+      ["Orange slice"]
+    ],
+    [
+      "Manhattan",
+      ["2", "Rye whiskey"],
+      ["1", "Dark vermouth"],
+      ["Bitters"],
+      ["Cherry garnish"]
+    ],
+    [
+      "Sex in the Driveway",
+      ["2", "Gin"],
+      ["1", "Peach schnapps"],
+      ["1", "Blue curacao"],
+      ["Sprite"]
+    ]
+  ],
+  "special": [
+    [
+      "Tokyo Tea",
+      ["1", "Gin"],
+      ["1", "Melon liqueur"],
+      ["1/2", "Tequila"],
+      ["1/2", "White Rum"],
+      ["1/2", "Orange liqueur"],
+      ["1", "Lime"],
+      ["Club soda"]
+    ]
+  ]
+}
