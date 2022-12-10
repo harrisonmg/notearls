@@ -30,6 +30,7 @@ body > * {
  flex: 1 1;
  font-size: 70px;
  margin-bottom: 50px;
+ white-space: nowrap;
 }
 
 .frac {
@@ -86,12 +87,12 @@ td:nth-child(2) {
   width: 50px;
 }
 
-#first-section {
+#weird-section {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: flex-end;
-  column-gap: 50px;
+  row-gap: 50px;
 }
 
 #special-header {
@@ -101,11 +102,10 @@ td:nth-child(2) {
 
 #special {
   border: 1px solid var(--tan);
-  width: min-content;
   padding: 15px;
+  margin: 0;
 }
 
-#martinis {
-  flex: 1 1;
+#cocktails {
   max-width: 700px;
 }

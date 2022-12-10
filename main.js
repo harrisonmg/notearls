@@ -40,9 +40,14 @@ const addDrink = (section, name, content) => {
 fetch('./drinks.json')
     .then((response) => response.json())
     .then((drinks) => {
-      for (const section of Object.keys(drinks)) {
+      for (let section of Object.keys(drinks)) {
+        let i = 0;
         for (const drink of drinks[section]) {
+          if (i >= 4 && section === 'cocktails') {
+            section = 'cocktails-2';
+          }
           addDrink(section, drink[0], drink.slice(1));
+          i += 1;
         }
       }
     });

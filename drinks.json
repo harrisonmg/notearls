@@ -8,11 +8,38 @@
       ["Olive or lemon"]
     ],
     [
+      "Club Pegu",
+      ["2", "Gin"],
+      ["3/4", "Orange liqueur"],
+      ["1/2", "Lime"],
+      ["Bitters"]
+    ],
+    [
+      "Negroni",
+      ["1 1/2", "Gin"],
+      ["1", "Aperitif"],
+      ["1/2", "Dark vermouth"],
+      ["Orange slice"]
+    ],
+    [
       "Lavender Martini",
       ["1 1/2", "Gin"],
       ["3/4", "Elderflower"],
       ["1 1/4", "Lavender syrup"],
       ["1/2", "Lemon"]
+    ],
+    [
+      "Espresso Martini",
+      ["1", "Coffee liqueur"],
+      ["1", "Gin"],
+      ["1", "Cream liqueur"]
+    ],
+    [
+      "Manhattan",
+      ["2", "Rye whiskey"],
+      ["1", "Dark vermouth"],
+      ["Bitters"],
+      ["Cherry garnish"]
     ]
   ],
   "cocktails": [
@@ -23,10 +50,29 @@
       ["Sprite"]
     ],
     [
+      "Moscow Mule",
+      ["2", "Gin"],
+      ["3/4", "Lime"],
+      ["Ginger beer"]
+    ],
+    [
+      "Sex in the Driveway",
+      ["2", "Gin"],
+      ["1", "Peach schnapps"],
+      ["1", "Blue curacao"],
+      ["Sprite"]
+    ],
+    [
       "Whisky Ginger",
       ["1 1/2", "Suntory whisky"],
       ["Ginger beer"],
       ["Orange bitters"]
+    ],
+    [
+      "Gin & Tonic",
+      ["2", "Gin"],
+      ["1/2", "Lime"],
+      ["Tonic"]
     ],
     [
       "Poshfly",
@@ -36,31 +82,6 @@
       ["Tropical red bull"]
     ],
     [
-      "Club Pegu",
-      ["2", "Gin"],
-      ["3/4", "Orange liqueur"],
-      ["1/2", "Lime"],
-      ["Bitters"]
-    ],
-    [
-      "Espresso Martini",
-      ["1", "Coffee liqueur"],
-      ["1", "Gin"],
-      ["1", "Cream liqueur"]
-    ],
-    [
-      "Moscow Mule",
-      ["2", "Gin"],
-      ["3/4", "Lime"],
-      ["Ginger beer"]
-    ],
-    [
-      "Gin & Tonic",
-      ["2", "Gin"],
-      ["1/2", "Lime"],
-      ["Tonic"]
-    ],
-    [
       "Long Island",
       ["1", "Gin"],
       ["1/2", "Tequila"],
@@ -68,27 +89,6 @@
       ["1/2", "Orange liqueur"],
       ["1", "Lime"],
       ["Cola"]
-    ],
-    [
-      "Negroni",
-      ["1 1/2", "Gin"],
-      ["1", "Aperitif"],
-      ["1/2", "Dark vermouth"],
-      ["Orange slice"]
-    ],
-    [
-      "Manhattan",
-      ["2", "Rye whiskey"],
-      ["1", "Dark vermouth"],
-      ["Bitters"],
-      ["Cherry garnish"]
-    ],
-    [
-      "Sex in the Driveway",
-      ["2", "Gin"],
-      ["1", "Peach schnapps"],
-      ["1", "Blue curacao"],
-      ["Sprite"]
     ]
   ],
   "special": [
